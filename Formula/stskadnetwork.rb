@@ -7,7 +7,7 @@ class Stskadnetwork < Formula
   url "https://github.com/guojunliu/stskadnetwork/files/6738776/stskadnetwork.tar.gz"
   version "1.0.0"
   sha256 "34eed7609777e7637815373b71534e0dc64c5b34b13efe5a445315f38eaaed92"
-  license ""
+  license "MIT"
 
   # depends_on "cmake" => :build
 
