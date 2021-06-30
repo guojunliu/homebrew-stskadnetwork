@@ -9,9 +9,7 @@ class Stskadnetwork < Formula
   sha256 "34eed7609777e7637815373b71534e0dc64c5b34b13efe5a445315f38eaaed92"
   license "MIT"
 
-  # depends_on "cmake" => :build
-
   def install
-      bin.install "stskadnetwork.tar.gz"
+      bin.install "stskadnetwork"
   end
 end
