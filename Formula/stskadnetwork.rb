@@ -12,6 +12,6 @@ class Stskadnetwork < Formula
   # depends_on "cmake" => :build
 
   def install
-      bin.install "stskadnetwork"
+      bin.install "./"
   end
 end
