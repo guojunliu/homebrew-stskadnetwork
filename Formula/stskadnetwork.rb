@@ -13,6 +13,5 @@ class Stskadnetwork < Formula
 
   def install
       bin.install "stskadnetwork"
-      bin.install "stskadnetwork"
   end
 end
