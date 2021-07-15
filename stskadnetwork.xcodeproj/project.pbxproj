@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA12703D268B085700BCB38C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA12703C268B085700BCB38C /* main.m */; };
+		AA127046268B09FC00BCB38C /* STSKAdNetworkIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = AA127045268B09FC00BCB38C /* STSKAdNetworkIdentifier.m */; };
+		AAA10D34269FEA1C00F6EDF1 /* STExport.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA10D33269FEA1C00F6EDF1 /* STExport.m */; };
+		AAA10D37269FEA6200F6EDF1 /* STManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA10D36269FEA6200F6EDF1 /* STManager.m */; };
+		AAA10D3A269FED4B00F6EDF1 /* STPrintfDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA10D39269FED4B00F6EDF1 /* STPrintfDefine.m */; };
+		AAA10D3E26A0062D00F6EDF1 /* BRLOptionParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA10D3D26A0062D00F6EDF1 /* BRLOptionParser.m */; };
+		AAE0FCC6269C36A60068DF99 /* STProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE0FCC5269C36A60068DF99 /* STProgressBar.m */; };
+		AAE35552269D33BD00A29188 /* STNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE35551269D33BD00A29188 /* STNetwork.m */; };
+		AAE35582269D9F4900A29188 /* STFile.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE35581269D9F4900A29188 /* STFile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA127037268B085700BCB38C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA127039268B085700BCB38C /* stskadnetwork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = stskadnetwork; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA12703C268B085700BCB38C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA127044268B09FC00BCB38C /* STSKAdNetworkIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSKAdNetworkIdentifier.h; sourceTree = "<group>"; };
+		AA127045268B09FC00BCB38C /* STSKAdNetworkIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSKAdNetworkIdentifier.m; sourceTree = "<group>"; };
+		AAA10D32269FEA1C00F6EDF1 /* STExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STExport.h; sourceTree = "<group>"; };
+		AAA10D33269FEA1C00F6EDF1 /* STExport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STExport.m; sourceTree = "<group>"; };
+		AAA10D35269FEA6200F6EDF1 /* STManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STManager.h; sourceTree = "<group>"; };
+		AAA10D36269FEA6200F6EDF1 /* STManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STManager.m; sourceTree = "<group>"; };
+		AAA10D39269FED4B00F6EDF1 /* STPrintfDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STPrintfDefine.m; sourceTree = "<group>"; };
+		AAA10D3C26A0062D00F6EDF1 /* BRLOptionParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRLOptionParser.h; sourceTree = "<group>"; };
+		AAA10D3D26A0062D00F6EDF1 /* BRLOptionParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRLOptionParser.m; sourceTree = "<group>"; };
+		AADD2AF5269EEDE1009BE56E /* STColorDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STColorDefine.h; sourceTree = "<group>"; };
+		AADD2AF9269F0452009BE56E /* STPrintfDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STPrintfDefine.h; sourceTree = "<group>"; };
+		AAE0FCC4269C36A60068DF99 /* STProgressBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STProgressBar.h; sourceTree = "<group>"; };
+		AAE0FCC5269C36A60068DF99 /* STProgressBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STProgressBar.m; sourceTree = "<group>"; };
+		AAE35550269D33BD00A29188 /* STNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STNetwork.h; sourceTree = "<group>"; };
+		AAE35551269D33BD00A29188 /* STNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STNetwork.m; sourceTree = "<group>"; };
+		AAE35580269D9F4900A29188 /* STFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STFile.h; sourceTree = "<group>"; };
+		AAE35581269D9F4900A29188 /* STFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STFile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA127036268B085700BCB38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA127030268B085700BCB38C = {
+			isa = PBXGroup;
+			children = (
+				AA12703B268B085700BCB38C /* stskadnetwork */,
+				AA12703A268B085700BCB38C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA12703A268B085700BCB38C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA127039268B085700BCB38C /* stskadnetwork */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA12703B268B085700BCB38C /* stskadnetwork */ = {
+			isa = PBXGroup;
+			children = (
+				AA12703C268B085700BCB38C /* main.m */,
+				AAA10D35269FEA6200F6EDF1 /* STManager.h */,
+				AAA10D36269FEA6200F6EDF1 /* STManager.m */,
+				AAA10D3B26A0062D00F6EDF1 /* BRLOptionParser */,
+				AAA10D31269FEA0A00F6EDF1 /* Export */,
+				AAA10D30269FD2EB00F6EDF1 /* SKAdNetworkIdentifier */,
+				AADD2AF8269F01B2009BE56E /* File */,
+				AADD2AF7269EF472009BE56E /* Define */,
+				AADD2AF6269EF452009BE56E /* Progress */,
+				AAE3554F269D33A400A29188 /* Network */,
+			);
+			path = stskadnetwork;
+			sourceTree = "<group>";
+		};
+		AAA10D30269FD2EB00F6EDF1 /* SKAdNetworkIdentifier */ = {
+			isa = PBXGroup;
+			children = (
+				AA127044268B09FC00BCB38C /* STSKAdNetworkIdentifier.h */,
+				AA127045268B09FC00BCB38C /* STSKAdNetworkIdentifier.m */,
+			);
+			path = SKAdNetworkIdentifier;
+			sourceTree = "<group>";
+		};
+		AAA10D31269FEA0A00F6EDF1 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				AAA10D32269FEA1C00F6EDF1 /* STExport.h */,
+				AAA10D33269FEA1C00F6EDF1 /* STExport.m */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+		AAA10D3B26A0062D00F6EDF1 /* BRLOptionParser */ = {
+			isa = PBXGroup;
+			children = (
+				AAA10D3C26A0062D00F6EDF1 /* BRLOptionParser.h */,
+				AAA10D3D26A0062D00F6EDF1 /* BRLOptionParser.m */,
+			);
+			path = BRLOptionParser;
+			sourceTree = "<group>";
+		};
+		AADD2AF6269EF452009BE56E /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				AAE0FCC4269C36A60068DF99 /* STProgressBar.h */,
+				AAE0FCC5269C36A60068DF99 /* STProgressBar.m */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		AADD2AF7269EF472009BE56E /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				AADD2AF5269EEDE1009BE56E /* STColorDefine.h */,
+				AADD2AF9269F0452009BE56E /* STPrintfDefine.h */,
+				AAA10D39269FED4B00F6EDF1 /* STPrintfDefine.m */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		AADD2AF8269F01B2009BE56E /* File */ = {
+			isa = PBXGroup;
+			children = (
+				AAE35580269D9F4900A29188 /* STFile.h */,
+				AAE35581269D9F4900A29188 /* STFile.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		AAE3554F269D33A400A29188 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AAE35550269D33BD00A29188 /* STNetwork.h */,
+				AAE35551269D33BD00A29188 /* STNetwork.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA127038268B085700BCB38C /* stskadnetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA127040268B085700BCB38C /* Build configuration list for PBXNativeTarget "stskadnetwork" */;
+			buildPhases = (
+				AA127035268B085700BCB38C /* Sources */,
+				AA127036268B085700BCB38C /* Frameworks */,
+				AA127037268B085700BCB38C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stskadnetwork;
+			productName = testTool;
+			productReference = AA127039268B085700BCB38C /* stskadnetwork */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA127031268B085700BCB38C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AA127038268B085700BCB38C = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = AA127034268B085700BCB38C /* Build configuration list for PBXProject "stskadnetwork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA127030268B085700BCB38C;
+			productRefGroup = AA12703A268B085700BCB38C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA127038268B085700BCB38C /* stskadnetwork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA127035268B085700BCB38C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE35582269D9F4900A29188 /* STFile.m in Sources */,
+				AAE35552269D33BD00A29188 /* STNetwork.m in Sources */,
+				AAA10D3A269FED4B00F6EDF1 /* STPrintfDefine.m in Sources */,
+				AAA10D37269FEA6200F6EDF1 /* STManager.m in Sources */,
+				AAA10D3E26A0062D00F6EDF1 /* BRLOptionParser.m in Sources */,
+				AAA10D34269FEA1C00F6EDF1 /* STExport.m in Sources */,
+				AA12703D268B085700BCB38C /* main.m in Sources */,
+				AAE0FCC6269C36A60068DF99 /* STProgressBar.m in Sources */,
+				AA127046268B09FC00BCB38C /* STSKAdNetworkIdentifier.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA12703E268B085700BCB38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA12703F268B085700BCB38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA127041268B085700BCB38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA127042268B085700BCB38C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA127034268B085700BCB38C /* Build configuration list for PBXProject "stskadnetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA12703E268B085700BCB38C /* Debug */,
+				AA12703F268B085700BCB38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA127040268B085700BCB38C /* Build configuration list for PBXNativeTarget "stskadnetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA127041268B085700BCB38C /* Debug */,
+				AA127042268B085700BCB38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA127031268B085700BCB38C /* Project object */;
+}

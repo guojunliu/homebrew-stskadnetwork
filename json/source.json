@@ -1,0 +1,17 @@
+{
+    "update_date": "2021-07-15",
+    "source": {
+        "ironsource": "https://raw.githubusercontent.com/guojunliu/stskadnetwork/master/json/ironsource.json",
+        "unity": "https://skan.mz.unity3d.com/v3/partner/skadnetworks.plist.json",
+        "applovin": "https://raw.githubusercontent.com/guojunliu/stskadnetwork/master/json/applovin.json",
+        "inmobi": "https://www.inmobi.com/skadnetworkids.json",
+        "pangle": "https://raw.githubusercontent.com/guojunliu/stskadnetwork/master/json/pangle.json",
+        "vungle": "https://vungle.com/skadnetworkids.json",
+        "mintegral": "https://dev.mintegral.com/skadnetworkids.json",
+        "chartboost": "https://a3.chartboost.com/skadnetworkids.json",
+        "admob": "https://raw.githubusercontent.com/guojunliu/stskadnetwork/master/json/admob.json",
+        "facebook": "https://raw.githubusercontent.com/guojunliu/stskadnetwork/master/json/facebook.json",
+        "mopub": "https://raw.githubusercontent.com/mopub/mopub-skadnetwork-ids/main/partners/mopub_marketplace.json",
+        "adcolony": "https://raw.githubusercontent.com/AdColony/AdColony-iOS-SDK/master/skadnetworkids.json"
+    }
+}

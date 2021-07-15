@@ -1,0 +1,13 @@
+{
+  "update_date": "2021-07-15",
+  "company_name": "Facebook ST",
+  "company_address": "https://developers.facebook.com/docs/audience-network/guides/SKAdNetwork",
+  "skadnetwork_ids": [
+    {
+      "skadnetwork_id": "v9wttpbfk9.skadnetwork"
+    },
+    {
+      "skadnetwork_id": "n38lu8286q.skadnetwork"
+    }
+  ]
+}
