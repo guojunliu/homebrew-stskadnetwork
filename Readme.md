@@ -54,3 +54,7 @@ YourPath为文件导出的目的目录
 
 - `stskadnetwork -x YourPath`
 - `stskadnetwork -t YourPath `
+
+## 支持
+
+[查看当前支持的广告联盟](https://github.com/guojunliu/homebrew-stskadnetwork/blob/master/json/source.json)
