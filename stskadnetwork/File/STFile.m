@@ -47,7 +47,9 @@
 }
 
 + (NSDictionary *)getJsonPathDic {
-    NSString *sourcePath = @"https://raw.githubusercontent.com/guojunliu/stskadnetwork/master/json/source.json";
+
+//    NSString *sourcePath = @"https://raw.githubusercontent.com/guojunliu/stskadnetwork/master/json/source.json";  // 老地址
+    NSString *sourcePath = @"https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/source.json"; // 新地址。更新时最好两份地址都更新一下
     NSError *error;
     NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:sourcePath] options:NSDataReadingUncached error:&error];
     if (error) {
