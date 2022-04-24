@@ -11,7 +11,6 @@
         "chartboost": "https://a3.chartboost.com/skadnetworkids.json",
         "admob": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/admob.json",
         "facebook": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/facebook.json",
-        "mopub": "https://raw.githubusercontent.com/mopub/mopub-skadnetwork-ids/main/partners/mopub_marketplace.json",
         "adcolony": "https://raw.githubusercontent.com/AdColony/AdColony-iOS-SDK/master/skadnetworkids.json",
         "fyber": "https://fyber-engineering.github.io/SKAdNetworks/skadnetwork.json"
     }
