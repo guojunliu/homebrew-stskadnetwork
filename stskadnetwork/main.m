@@ -23,6 +23,7 @@ int main(int argc, const char * argv[])
         [options addSeparator];
         [options addOption:"source" flag:'s' description:@"设置备用数据源" blockWithArgument:^(NSString *value) {
             [STFile shareInstance].sourceFilePath = value;
+            printf("\n当前数据源为：%s", [[STFile shareInstance].sourceFilePath UTF8String]);
         }];
         [options addOption:"plist" flag:'p' description:@"将SKAdNetworkId导出到当前路径下的Info.plist" block:^{
             [STManager exportToInfoPlist];
