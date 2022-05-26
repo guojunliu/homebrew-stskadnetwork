@@ -6,7 +6,7 @@ class Stskadnetwork < Formula
   homepage "https://github.com/guojunliu/stskadnetwork"
   url "https://github.com/guojunliu/homebrew-stskadnetwork/raw/master/product/4.0.0/stskadnetwork_4.0.0.tar.gz"
   version "4.0.0"
-  sha256 "1538945d7c4885ebe6f7789a82753b992b21168e6fcff8615e50d180f40cd2a2"
+  sha256 "200506221324f5b15f1a8d6c411be94b3bc7c147d4b10abb0076647f42315835"
   license "MIT"
 
   def install
