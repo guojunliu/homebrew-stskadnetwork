@@ -22,9 +22,7 @@ int main(int argc, const char * argv[])
         [options setBanner:@"usage: %s [-p] [-x <path>] [-t <path>] [-s <source>]", argv[0]];
         [options addSeparator];
         [options addOption:"source" flag:'s' description:@"设置备用数据源" blockWithArgument:^(NSString *value) {
-            printf("\n\n%s   %s", [[STFile shareInstance].sourceFilePath UTF8String], [value UTF8String]);
             [STFile shareInstance].sourceFilePath = value;
-            printf("\n\n%s   %s", [[STFile shareInstance].sourceFilePath UTF8String], [value UTF8String]);
         }];
         [options addOption:"plist" flag:'p' description:@"将SKAdNetworkId导出到当前路径下的Info.plist" block:^{
             [STManager exportToInfoPlist];
