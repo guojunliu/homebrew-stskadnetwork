@@ -9,6 +9,10 @@
 
 @interface STFile : NSObject
 
+@property (nonatomic) NSString *sourceFilePath;
+
++ (instancetype)shareInstance;
+
 + (NSArray *)download:(NSString *)url name:(NSString *)name path:(NSString *)path error:(NSError **)error;
 
 + (NSDictionary *)getJsonPathDic;

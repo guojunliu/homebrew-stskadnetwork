@@ -11,6 +11,17 @@
 
 @implementation STFile
 
++ (instancetype)shareInstance {
+    static STFile *manager;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        if(manager == nil) {
+            manager = [[STFile alloc] init];
+        }
+    });
+    return manager;
+}
+
 + (NSArray *)download:(NSString *)url name:(NSString *)name path:(NSString *)path error:(NSError **)error {
     if (url == nil || [url isEqualToString:@""]) {
         *error = [NSError errorWithDomain:@"STFile" code:0 userInfo:nil];
@@ -48,8 +59,13 @@
 
 + (NSDictionary *)getJsonPathDic {
 
-//    NSString *sourcePath = @"https://raw.githubusercontent.com/guojunliu/stskadnetwork/master/json/source.json";  // 老地址
-    NSString *sourcePath = @"https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/source.json"; // 新地址。更新时最好两份地址都更新一下
+    NSString *sourcePath = @"";
+//    sourcePath = @"https://raw.githubusercontent.com/guojunliu/stskadnetwork/master/json/source.json";  // 老地址
+    sourcePath = @"https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/source.json"; // 新地址。更新时最好两份地址都更新一下
+//    sourcePath = @"https://steve_liu.coding.net/p/homebrew-stskadnetwork-source/d/homebrew-stskadnetwork-source/git/raw/master/json/source.json";
+    if ([STFile shareInstance].sourceFilePath != nil && ![[STFile shareInstance].sourceFilePath isEqualToString:@""]) {
+        sourcePath = [STFile shareInstance].sourceFilePath;
+    }
     NSError *error;
     NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:sourcePath] options:NSDataReadingUncached error:&error];
     if (error) {
