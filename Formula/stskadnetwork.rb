@@ -4,9 +4,9 @@
 class Stskadnetwork < Formula
   desc "合并各广告平台SKAdNetwork工具"
   homepage "https://github.com/guojunliu/stskadnetwork"
-  url "https://github.com/guojunliu/homebrew-stskadnetwork/raw/master/product/4.0.0/stskadnetwork_4.0.0.tar.gz"
-  version "4.0.0"
-  sha256 "200506221324f5b15f1a8d6c411be94b3bc7c147d4b10abb0076647f42315835"
+  url "https://github.com/guojunliu/homebrew-stskadnetwork/raw/master/product/5.0.0/stskadnetwork_5.0.0.tar.gz"
+  version "5.0.0"
+  sha256 "f63484a9f8c24432bafc31ad9431832ba4349ce34e1396d38383cdce3d0909a8"
   license "MIT"
 
   def install
