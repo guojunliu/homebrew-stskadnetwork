@@ -12,6 +12,7 @@
         "admob": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/admob.json",
         "facebook": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/facebook.json",
         "adcolony": "https://raw.githubusercontent.com/AdColony/AdColony-iOS-SDK/master/skadnetworkids.json",
-        "fyber": "https://fyber-engineering.github.io/SKAdNetworks/skadnetwork.json"
+        "fyber": "https://fyber-engineering.github.io/SKAdNetworks/skadnetwork.json",
+        "tapjoy": "https://skadnetwork.tapjoy.com/skadnetworkids.json"
     }
 }
