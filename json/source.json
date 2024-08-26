@@ -1,5 +1,5 @@
 {
-    "update_date": "2024-05-08",
+    "update_date": "2024-08-26",
     "source": {
         "ironsource": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/ironsource.json",
         "unity": "https://skan.mz.unity3d.com/v3/partner/skadnetworks.plist.json",
@@ -12,6 +12,7 @@
         "admob": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/admob.json",
         "facebook": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/facebook.json",
         "adcolony": "https://raw.githubusercontent.com/AdColony/AdColony-iOS-SDK/master/skadnetworkids.json",
-        "fyber": "https://fyber-engineering.github.io/SKAdNetworks/skadnetwork.json"
+        "fyber": "https://fyber-engineering.github.io/SKAdNetworks/skadnetwork.json",
+        "bidmachine": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/bidmachine.json"
     }
 }
