@@ -14,7 +14,7 @@
         "adcolony": "https://raw.githubusercontent.com/AdColony/AdColony-iOS-SDK/master/skadnetworkids.json",
         "fyber": "https://fyber-engineering.github.io/SKAdNetworks/skadnetwork.json",
         "bidmachine": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/bidmachine.json",
-        "bigo": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/bido.json",
+        "bigo": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/bigo.json",
         "yandex": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/yandex.json"
     }
 }
