@@ -13,6 +13,8 @@
         "facebook": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/facebook.json",
         "adcolony": "https://raw.githubusercontent.com/AdColony/AdColony-iOS-SDK/master/skadnetworkids.json",
         "fyber": "https://fyber-engineering.github.io/SKAdNetworks/skadnetwork.json",
-        "bidmachine": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/bidmachine.json"
+        "bidmachine": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/bidmachine.json",
+        "bigo": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/bido.json",
+        "yandex": "https://raw.githubusercontent.com/guojunliu/homebrew-stskadnetwork/master/json/yandex.json"
     }
 }
